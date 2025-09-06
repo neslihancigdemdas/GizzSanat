@@ -1,0 +1,257 @@
+html{
+scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 100%;
+}
+section{
+    padding: 100px 0;
+    background: #13334c; 
+}
+.section_title{
+  margin-bottom: 30px;
+}
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all.5e ease-in-out;
+}
+.section_title h2:hover{
+background-color: #37e0dd;
+}
+/* header */
+header{
+    background: rgb(44, 37, 37);
+    border-bottom: 1px solid rgba(238, 238, 238, 0.801);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding : 10px 0;
+}
+.nav_links{
+    display: flex;  
+}
+.nav_links li a{
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.nav_links li a:hover{
+    background: #37e0dd;
+}
+.logo h2 a{
+    color: #fff;
+    text-transform: uppercase; 
+    font-weight: 600;
+}
+
+/* anasayfa */
+
+.inner_anasayfa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+.child_anasayfa{
+    flex-basis: 45%;
+}
+.child_anasayfa h1 {
+  font-size: 50px;
+  color: #37e0dd;
+}
+
+.span_child {
+  color: #ffffff;
+}
+
+.child_anasayfa p {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.btn {
+  background: #37e0dd;
+  padding: 12px 28px;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid #37e0dd;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  background: transparent;
+  letter-spacing: 2px;
+}
+/* GİZZ SANAT MERKEZİ */
+.inner_sanatmerkezi{
+ display: flex;
+ align-items: center;
+ width: 80%;
+ justify-content: space-between;
+ margin: 0 auto;
+ color: #fff;
+
+}
+.child_sanatmerkezi{
+    flex-basis: 31%;
+ color: #fff;
+ padding: 25px 20px;
+ background: rgba(55, 66, 80, 0.281);
+ border-radius: 5px;
+ border: 1px solid transparent;
+ transition: all 0.5s ease-in;
+}
+
+.child_sanatmerkezi:hover{
+    border: 1px solid #24CAA6;
+}
+
+.child_sanatmerkezi h3{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.child_anasayfa p{
+    font-size: 16px;
+}
+
+/*galeri*/
+.inner_galeri {
+  display: flex;
+  justify-content: center;
+}
+
+.child_galeri {
+  display: flex;
+  flex-wrap: wrap; /* Alt satıra geçiş için */
+  gap: 15px;
+  justify-content: center;
+  max-width: 1200px; /* İstersen genişlik sınırı koy */
+}
+
+.galeri_img {
+  flex: 1 1 200px;
+  max-width: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.galeri_img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.galeri_img img:hover {
+  transform: scale(1.05);
+}
+/* Hakkımızda */
+#hakkimizda {
+  background-color: #13334c; 
+  padding: 100px 0;
+  text-align: center;
+  color: #fff; 
+}
+
+#hakkimizda h2 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+#hakkimizda h2:hover {
+  background-color: #37e0dd;
+}
+
+#hakkimizda p {
+  font-size: 18px;
+  color: #fff;
+  max-width: 900px;
+  margin: 15px auto;
+  line-height: 1.7;
+}
+
+/* İLETİŞİM */
+#iletisim {
+  padding: 100px 20px;
+  background-color: #13334c;
+  color: #f0f0f0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#iletisim .section_title h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  transition: background-color 0.5s ease-in-out;
+  cursor: default;
+}
+
+#iletisim .section_title h2:hover {
+  background-color: #37e0dd;
+  color: #13334c;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.inner_contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.child_contact.contact_info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.child_contact.contact_info strong {
+  color: #24CAA6;
+}
+
+.child_contact.contact_info a {
+  color: #37e0dd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.child_contact.contact_info a:hover {
+  color: #24CAA6;
+  text-decoration: underline;
+}
+
+
+
+
