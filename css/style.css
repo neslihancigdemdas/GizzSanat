@@ -148,10 +148,10 @@ header{
 
 .child_galeri {
   display: flex;
-  flex-wrap: wrap; /* Alt satıra geçiş için */
+  flex-wrap: wrap; 
   gap: 15px;
   justify-content: center;
-  max-width: 1200px; /* İstersen genişlik sınırı koy */
+  max-width: 1200px; 
 }
 
 .galeri_img {
@@ -238,17 +238,17 @@ header{
 }
 
 .child_contact.contact_info strong {
-  color: #24CAA6;
+  color: #ffffff;
 }
 
 .child_contact.contact_info a {
-  color: #37e0dd;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .child_contact.contact_info a:hover {
-  color: #24CAA6;
+  color: #ffffff;
   text-decoration: underline;
 }
 
