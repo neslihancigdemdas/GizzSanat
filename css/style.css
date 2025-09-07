@@ -109,35 +109,44 @@ header{
   letter-spacing: 2px;
 }
 /* GİZZ SANAT MERKEZİ */
-.inner_sanatmerkezi{
- display: flex;
- align-items: center;
- width: 80%;
- justify-content: space-between;
- margin: 0 auto;
- color: #fff;
-
-}
-.child_sanatmerkezi{
-    flex-basis: 31%;
- color: #fff;
- padding: 25px 20px;
- background: rgba(55, 66, 80, 0.281);
- border-radius: 5px;
- border: 1px solid transparent;
- transition: all 0.5s ease-in;
+.inner_sanatmerkezi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #fff;
 }
 
-.child_sanatmerkezi:hover{
-    border: 1px solid #24CAA6;
+.child_sanatmerkezi {
+  flex: 0 0 31%;
+  color: #fff;
+  padding: 25px 20px;
+  background: rgba(55, 66, 80, 0.281);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in;
+  box-sizing: border-box;
 }
 
-.child_sanatmerkezi h3{
-    font-size: 20px;
-    margin: 5px 0;
+.child_sanatmerkezi:hover {
+  border: 1px solid #24CAA6;
 }
-.child_anasayfa p{
-    font-size: 16px;
+
+.child_sanatmerkezi h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.child_sanatmerkezi p {
+  font-size: 16px;
+}
+
+.child_sanatmerkezi.trio {
+  flex: 0 0 100%;
+  margin-top: 30px;
+  text-align: left;
 }
 
 /*galeri*/
@@ -251,7 +260,47 @@ header{
   color: #ffffff;
   text-decoration: underline;
 }
+/**/
+img {
+  max-width: 100%;
+  height: auto;
+}
+body, html {
+  overflow-x: hidden;
+}
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+.nav_links {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; 
+  }
 
+  .nav_links {
+    display: none; 
+    flex-direction: column;
+    width: 100%;
+    background: rgb(44, 37, 37);
+    padding: 10px 0;
+  }
 
+  .nav_links li {
+    text-align: center;
+    margin: 10px 0;
+  }
 
+  .nav_links.show {
+    display: flex; 
+  }
 
+  .navbar {
+    width: 100%; 
+    padding: 10px;
+  }
+}
