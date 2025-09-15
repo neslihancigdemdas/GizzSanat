@@ -80,7 +80,11 @@ header {
   text-transform: uppercase; 
   font-weight: 600;
 }
-
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 /* anasayfa */
 .inner_anasayfa {
   display: flex;
