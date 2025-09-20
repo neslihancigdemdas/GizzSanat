@@ -1,9 +1,9 @@
 ﻿# Gizz Sanat Okulu
-Bu proje, Gizz Sanat okulu için HTML, CSS ve biraz JavaScript kullanılarak geliştirilmiş mobil uyumlu bir tanıtım sitesidir.
+Bu proje, Gizz Sanat okulu için HTML5, CSS3 ve JavaScript ile geliştirdiğim modern ve responsive tanıtım sitesi; 
+müzik, resim, satranç kursları ve Sanat Trio organizasyonlarını tanıtır.
 
-Müzik, resim, satranç kursları ve Sanat Trio Organizasyon hakkında bilgiler içermektedir.
+Bölümler: Anasayfa, Gizz Sanat, Galeri, Hakkımızda, İletişim.
 
-Bölümler: Anasayfa, Gizz Sanat , Galeri, Hakkımızda, İletişim
 
 
 
